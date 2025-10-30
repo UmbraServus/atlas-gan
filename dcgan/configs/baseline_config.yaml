@@ -1,0 +1,10 @@
+latent_dim: 100
+lr_G: 0.0002
+lr_D: 0.0002
+img_ch: 1
+img_size: 28
+kernel: 4
+Beta1: 0.5
+batch_size: 256
+epochs: 50
+device: "cuda"
