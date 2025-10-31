@@ -1,0 +1,7 @@
+100.0%
+100.0%
+100.0%
+100.0%
+Successfully downloaded FashionMNIST dataset with 60000 samples.
+torch.Size([128, 1, 28, 28])
+torch.Size([128])

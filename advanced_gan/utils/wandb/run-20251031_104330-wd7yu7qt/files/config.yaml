@@ -1,0 +1,59 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            l1q5t1ah2oy5zirhynjul4e55xu6ptu6:
+                codePath: advanced_gan\utils\preprocess.py
+                codePathLocal: preprocess.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "509722226688"
+                        used: "258242641920"
+                email: ksprague0592@gmail.com
+                executable: C:\Users\phoen\anaconda3\envs\ML\python.exe
+                git:
+                    commit: 859e67559bf75ed790376dbed75ac9599775b803
+                    remote: https://github.com/UmbraServus/atlas-gan
+                gpu: NVIDIA GeForce RTX 4060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 3072
+                      memoryTotal: "8585740288"
+                      name: NVIDIA GeForce RTX 4060 Laptop GPU
+                      uuid: GPU-8df16a4c-ac2e-13b5-1b02-208afb823f48
+                host: RegnumUmbra
+                memory:
+                    total: "16309932032"
+                os: Windows-10-10.0.26200-SP0
+                program: C:\Users\phoen\atlas-gan\advanced_gan\utils\preprocess.py
+                python: CPython 3.10.15
+                root: C:\Users\phoen\atlas-gan\advanced_gan\utils
+                startedAt: "2025-10-31T15:43:30.963486Z"
+                writerId: l1q5t1ah2oy5zirhynjul4e55xu6ptu6
+        m: []
+        python_version: 3.10.15
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 16
+            "4": 3.10.15
+            "5": 0.22.3
+            "8":
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
+dataset:
+    value: celebA
+framework:
+    value: PyTorch
+model:
+    value: adv_DCGAN
