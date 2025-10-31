@@ -20,9 +20,9 @@ wandb.init(project="mnist_dcgan", config={
     "model": "DCGAN"
 })
 
-with open("configs/dcgan_config.yaml", "r") as file:
-    c = yaml.safe_load(file)
-    c = SimpleNamespace(**c)
+# with open("dcgan\configs\baseline_config.yaml", "r") as file:
+#    c = yaml.safe_load(file)
+#    c = SimpleNamespace(**c)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

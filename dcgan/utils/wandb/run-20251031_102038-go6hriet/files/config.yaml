@@ -1,0 +1,59 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            5a3swkof9jq4hdk2ut2wwb98smewwv6c:
+                codePath: dcgan\utils\preprocess_mnist.py
+                codePathLocal: preprocess_mnist.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "509722226688"
+                        used: "257916358656"
+                email: ksprague0592@gmail.com
+                executable: C:\Users\phoen\anaconda3\envs\ML\python.exe
+                git:
+                    commit: aec1e780c4ddb2b8e08b5be8b7d48417af5023fa
+                    remote: https://github.com/UmbraServus/atlas-gan
+                gpu: NVIDIA GeForce RTX 4060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 3072
+                      memoryTotal: "8585740288"
+                      name: NVIDIA GeForce RTX 4060 Laptop GPU
+                      uuid: GPU-8df16a4c-ac2e-13b5-1b02-208afb823f48
+                host: RegnumUmbra
+                memory:
+                    total: "16309932032"
+                os: Windows-10-10.0.26200-SP0
+                program: C:\Users\phoen\atlas-gan\dcgan\utils\preprocess_mnist.py
+                python: CPython 3.10.15
+                root: C:\Users\phoen\atlas-gan\dcgan\utils
+                startedAt: "2025-10-31T15:20:38.402614Z"
+                writerId: 5a3swkof9jq4hdk2ut2wwb98smewwv6c
+        m: []
+        python_version: 3.10.15
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 16
+            "4": 3.10.15
+            "5": 0.22.3
+            "8":
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
+dataset:
+    value: MNIST
+framework:
+    value: PyTorch
+model:
+    value: DCGAN
