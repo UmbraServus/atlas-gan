@@ -17,18 +17,18 @@ class Generator(nn.Module):
 
           # Upsample to 14x14
           nn.Upsample(scale_factor=2),
-          nn.Conv2d(128, 64, kernel, stride=1, padding=1),
+          nn.Conv2d(128, 64, c.kernel, stride=1, padding=1),
           nn.BatchNorm2d(64),
           nn.ReLU(inplace=True),
 
           # Upsample to 28x28
           nn.Upsample(scale_factor=2),
-          nn.Conv2d(64, 32, kernel, stride=1, padding=1),
+          nn.Conv2d(64, 32, c.kernel, stride=1, padding=1),
           nn.BatchNorm2d(32),
           nn.ReLU(inplace=True),
 
           # Output layer
-          nn.Conv2d(32, img_ch, kernel, stride=1, padding=1),
+          nn.Conv2d(32, c.img_ch, c.kernel, stride=1, padding=1),
           nn.Tanh()
           # Output range [-1, 1]
         )
